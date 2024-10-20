@@ -1,4 +1,4 @@
-# Fenikkusu
+# Usagi OS
 
 Site : [https://jackobo.info/?datas=usagi](https://jackobo.info/?datas=usagi)
 
