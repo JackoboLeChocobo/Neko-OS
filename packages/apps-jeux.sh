@@ -21,8 +21,8 @@ INSTALLER_STEAM=1
 # LUTRIS 
 if [[ "$INSTALLER_LUTRIS" -eq 1 ]]; then
 	apt install python3-yaml python3-lxml python3-requests python3-magic gir1.2-webkit2-4.1 cabextract fluid-soundfont-gs vulkan-tools
-	wget https://github.com/lutris/lutris/releases/download/v0.5.17/lutris_0.5.17_all.deb -P /etc/fenikkusu/openbox-scripts -c
-	dpkg -i /etc/fenikkusu/openbox-scripts/lutris_0.5.17_all.deb
+	wget https://github.com/lutris/lutris/releases/download/v0.5.17/lutris_0.5.17_all.deb -P /etc/usagi/openbox-scripts -c
+	dpkg -i /etc/usagi/openbox-scripts/lutris_0.5.17_all.deb
 fi
 
 # MCPELAUNCHER 
@@ -47,11 +47,11 @@ apt update && apt install firefox firefox-l10n-fr
 # STEAM
 if [[ "$INSTALLER_STEAM" -eq 1 ]]; then
 	apt install python3-apt
-	wget https://cdn.akamai.steamstatic.com/client/installer/steam.deb -P /etc/fenikkusu/openbox-scripts -c
-	dpkg -i /etc/fenikkusu/openbox-scripts/steam.deb
+	wget https://cdn.akamai.steamstatic.com/client/installer/steam.deb -P /etc/usagi/openbox-scripts -c
+	dpkg -i /etc/usagi/openbox-scripts/steam.deb
 fi
 
-cp apps-jeux-icones/* /etc/fenikkusu/openbox-icons/
+cp apps-jeux-icones/* /etc/usagi/openbox-icons/
 
 echo " "
 echo "###################################"
@@ -67,7 +67,7 @@ if [[ "$INSTALLER_LUTRIS" -eq 1 ]]; then
 	echo "- Catégorie suggérée : Jeux"
 	echo "- Nom suggéré : Lutris"
 	echo "- Executable : /usr/games/lutris"
-	echo "- Icone : /etc/fenikkusu/openbox-icons/lutris.svg"
+	echo "- Icone : /etc/usagi/openbox-icons/lutris.svg"
 fi
 if [[ "$INSTALLER_MCPELAUNCHER" -eq 1 ]]; then
 	echo " "
@@ -75,19 +75,19 @@ if [[ "$INSTALLER_MCPELAUNCHER" -eq 1 ]]; then
 	echo "- Catégorie suggérée : Jeux"
 	echo "- Nom suggéré : Minecraft Bedrock Edition"
 	echo "- Executable : /usr/bin/mcpelauncher-ui-qt"
-	echo "- Icone : /etc/fenikkusu/openbox-icons/minecraft.svg"
+	echo "- Icone : /etc/usagi/openbox-icons/minecraft.svg"
 fi
 echo " "
 echo "Mozilla Firefox :"
 echo "- Catégorie suggérée : Internet"
 echo "- Nom suggéré : Mozilla Firefox"
 echo "- Executable : /usr/bin/firefox"
-echo "- Icone : /etc/fenikkusu/openbox-icons/firefox.svg"
+echo "- Icone : /etc/usagi/openbox-icons/firefox.svg"
 if [[ "$INSTALLER_STEAM" -eq 1 ]]; then
 	echo " "
 	echo "Steam :"
 	echo "- Catégorie suggérée : Jeux"
 	echo "- Nom suggéré : Steam"
 	echo "- Executable : /usr/bin/steam"
-	echo "- Icone : /etc/fenikkusu/openbox-icons/steam.svg"
+	echo "- Icone : /etc/usagi/openbox-icons/steam.svg"
 fi
