@@ -20,8 +20,8 @@ INSTALLER_GITHUBDESKTOP=1
 
 # DEBREATE 
 if [[ "$INSTALLER_DEBREATE" -eq 1 ]]; then
-	cp ./debs/debreate_0.8-dev9_all.deb /etc/fenikkusu/openbox-scripts/debreate_0.8-dev9_all.deb
-	dpkg -i /etc/fenikkusu/openbox-scripts/debreate_0.8-dev9_all.deb
+	cp ./debs/debreate_0.8-dev9_all.deb /etc/usagi/openbox-scripts/debreate_0.8-dev9_all.deb
+	dpkg -i /etc/usagi/openbox-scripts/debreate_0.8-dev9_all.deb
 fi
 
 # GEANY 
@@ -48,7 +48,7 @@ Pin-Priority: 1000
 ' | tee /etc/apt/preferences.d/mozilla
 apt update && apt install firefox firefox-l10n-fr
 
-cp apps-programmation-icones/* /etc/fenikkusu/openbox-icons/
+cp apps-programmation-icones/* /etc/usagi/openbox-icons/
 
 echo " "
 echo "###################################"
@@ -64,7 +64,7 @@ if [[ "$INSTALLER_DEBREATE" -eq 1 ]]; then
 	echo "- Catégorie suggérée : Programmation"
 	echo "- Nom suggéré : Debreate"
 	echo "- Executable : /usr/bin/debreate"
-	echo "- Icone : /etc/fenikkusu/openbox-icons/debreate.svg"
+	echo "- Icone : /etc/usagi/openbox-icons/debreate.svg"
 fi
 if [[ "$INSTALLER_GEANY" -eq 1 ]]; then
 	echo " "
@@ -72,7 +72,7 @@ if [[ "$INSTALLER_GEANY" -eq 1 ]]; then
 	echo "- Catégorie suggérée : Programmation"
 	echo "- Nom suggéré : Geany"
 	echo "- Executable : /usr/bin/geany"
-	echo "- Icone : /etc/fenikkusu/openbox-icons/geany.svg"
+	echo "- Icone : /etc/usagi/openbox-icons/geany.svg"
 fi
 if [[ "$INSTALLER_GITHUBDESKTOP" -eq 1 ]]; then
 	echo " "
@@ -80,12 +80,12 @@ if [[ "$INSTALLER_GITHUBDESKTOP" -eq 1 ]]; then
 	echo "- Catégorie suggérée : Programmation"
 	echo "- Nom suggéré : Github Desktop"
 	echo "- Executable : /usr/bin/github-desktop"
-	echo "- Icone : /etc/fenikkusu/openbox-icons/github.svg"
+	echo "- Icone : /etc/usagi/openbox-icons/github.svg"
 fi
 echo " "
 echo "Mozilla Firefox :"
 echo "- Catégorie suggérée : Internet"
 echo "- Nom suggéré : Mozilla Firefox"
 echo "- Executable : /usr/bin/firefox"
-echo "- Icone : /etc/fenikkusu/openbox-icons/firefox.svg"
+echo "- Icone : /etc/usagi/openbox-icons/firefox.svg"
 
