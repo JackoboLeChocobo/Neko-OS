@@ -1,11 +1,11 @@
 #!/bin/bash
 
 # Packages
-# Projet Fenikkusu
+# Projet Usagi OS
 
 packfenikkusu=`zenity \
 	--width=600 --height=300 \
-	--title="Fenikkusu - Installation" \
+	--title="Usagi OS - Installation" \
 	--text="Choisissez la catégorie désirée. périphérique USB désirée" \
 	--list \
 	--column="Catégorié" \
@@ -17,6 +17,6 @@ packfenikkusu=`zenity \
 	"/apps-reseau" "Logiciels concernant le réseau informatique" 2> /dev/null`
 
 if echo "$packfenikkusu" | grep '/'; then
-	chmod +x /etc/fenikkusu/Fenikkusu/packages/${packfenikkusu}.sh
-	/usr/bin/lxterminal -e "sudo /etc/fenikkusu/Fenikkusu/packages/${packfenikkusu}.sh"
+	chmod +x /etc/usagi/Usagi-OS/packages/${packfenikkusu}.sh
+	/usr/bin/lxterminal -e "sudo /etc/usagi/Usagi-OS/packages/${packfenikkusu}.sh"
 fi
