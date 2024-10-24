@@ -11,7 +11,7 @@ sed -i -r 's/bookworm main non-free-firmware/bookworm main non-free-firmware con
 apt update
 apt install nvidia-driver firmware-misc-nonfree
 
-cp apps-nvidia-icones/* /etc/fenikkusu/openbox-icons/
+cp apps-nvidia-icones/* /etc/usagi/openbox-icons/
 
 echo " "
 echo "###################################"
@@ -28,4 +28,4 @@ echo "NVIDIA Settings :"
 echo "- Catégorie suggérée : Système"
 echo "- Nom suggéré : Configuration NVIDIA"
 echo "- Executable : /usr/bin/nvidia-settings"
-echo "- Icone : /etc/fenikkusu/openbox-icons/nvidia-settings.svg"
+echo "- Icone : /etc/usagi/openbox-icons/nvidia-settings.svg"
