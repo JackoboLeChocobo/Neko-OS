@@ -56,7 +56,7 @@ apt install sqlmap
 # Wireshark 
 apt install wireshark
 
-cp apps-programmation-icones/* /etc/fenikkusu/openbox-icons/
+cp apps-programmation-icones/* /etc/usagi/openbox-icons/
 
 echo " "
 echo "###################################"
@@ -95,23 +95,23 @@ echo "Hydra :"
 echo "- Catégorie suggérée : Réseau"
 echo "- Nom suggéré : Hydra"
 echo "- Executable : /usr/bin/xhydra"
-echo "- Icone : /etc/fenikkusu/openbox-icons/hydra.svg"
+echo "- Icone : /etc/usagi/openbox-icons/hydra.svg"
 echo " "
 echo "Nmapsi4 :"
 echo "- Catégorie suggérée : Réseau"
 echo "- Nom suggéré : Nmapsi4"
 echo "- Executable : /usr/bin/nmapsi4"
-echo "- Icone : /etc/fenikkusu/openbox-icons/nmapsi4.svg"
+echo "- Icone : /etc/usagi/openbox-icons/nmapsi4.svg"
 echo " "
 echo "Mozilla Firefox :"
 echo "- Catégorie suggérée : Internet"
 echo "- Nom suggéré : Mozilla Firefox"
 echo "- Executable : /usr/bin/firefox"
-echo "- Icone : /etc/fenikkusu/openbox-icons/firefox.svg"
+echo "- Icone : /etc/usagi/openbox-icons/firefox.svg"
 echo " "
 echo "Wireshark :"
 echo "- Catégorie suggérée : Réseau"
 echo "- Nom suggéré : Wireshark"
 echo "- Executable : /usr/bin/wireshark"
-echo "- Icone : /etc/fenikkusu/openbox-icons/wireshark.svg"
+echo "- Icone : /etc/usagi/openbox-icons/wireshark.svg"
 
