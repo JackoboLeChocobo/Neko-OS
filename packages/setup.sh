@@ -6,7 +6,7 @@
 cp /etc/usagi/Usagi-OS/icons/* /etc/usagi/openbox-icons/
 
 packusagi=`zenity \
-	--width=600 --height=300 \
+	--width=848 --height=480 \
 	--title="Usagi OS - Installation" \
 	--text="Choisissez l'application désirée" \
 	--list \
