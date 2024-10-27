@@ -10,3 +10,5 @@ echo "- Catégorie suggérée : Programmation"
 echo "- Nom suggéré : Geany"
 echo "- Executable : /usr/bin/geany"
 echo "- Icone : /etc/usagi/openbox-icons/geany.svg"
+
+read -p "Appuyer sur une touche pour quitter... " -n1 -s

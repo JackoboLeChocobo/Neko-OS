@@ -10,3 +10,5 @@ echo "- Catégorie suggérée : Graphisme"
 echo "- Nom suggéré : GIMP"
 echo "- Executable : /usr/bin/gimp"
 echo "- Icone : /etc/usagi/openbox-icons/gimp.svg"
+
+read -p "Appuyer sur une touche pour quitter... " -n1 -s

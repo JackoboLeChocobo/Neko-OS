@@ -11,3 +11,5 @@ echo "- Catégorie suggérée : Bureautique"
 echo "- Nom suggéré : OnlyOffice"
 echo "- Executable : /usr/bin/onlyoffice-desktopeditors %U"
 echo "- Icone : /etc/usagi/openbox-icons/onlyoffice.svg"
+
+read -p "Appuyer sur une touche pour quitter... " -n1 -s

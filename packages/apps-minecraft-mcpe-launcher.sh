@@ -12,3 +12,5 @@ echo "- Catégorie suggérée : Jeux"
 echo "- Nom suggéré : Minecraft Bedrock Edition"
 echo "- Executable : /usr/bin/mcpelauncher-ui-qt"
 echo "- Icone : /etc/usagi/openbox-icons/minecraft.svg"
+
+read -p "Appuyer sur une touche pour quitter... " -n1 -s
