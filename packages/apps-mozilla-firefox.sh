@@ -22,4 +22,4 @@ echo "- Icone : /etc/usagi/openbox-icons/firefox.svg"
 
 read -p "Appuyer sur une touche pour quitter... " -n1 -s
 
-/etc/usagi/Usagi-OS/packages/setup.sh
+/etc/usagi/Usagi-OS/packages/setup.sh &
