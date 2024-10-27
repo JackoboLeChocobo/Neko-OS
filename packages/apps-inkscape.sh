@@ -12,3 +12,5 @@ echo "- Executable : /usr/bin/inkscape"
 echo "- Icone : /etc/usagi/openbox-icons/inkscape.svg"
 
 read -p "Appuyer sur une touche pour quitter... " -n1 -s
+
+/etc/usagi/Usagi-OS/packages/setup.sh

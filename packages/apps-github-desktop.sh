@@ -14,3 +14,5 @@ echo "- Executable : /usr/bin/github-desktop"
 echo "- Icone : /etc/usagi/openbox-icons/github.svg"
 
 read -p "Appuyer sur une touche pour quitter... " -n1 -s
+
+/etc/usagi/Usagi-OS/packages/setup.sh
