@@ -1,5 +1,7 @@
 # Usagi OS
 
+![alt text](https://raw.githubusercontent.com/JackoboLeChocobo/Usagi-OS/refs/heads/main/screenshot.png)
+
 Site : [https://jackobo.info/?datas=usagi-os](https://jackobo.info/?datas=usagi-os)
 
 Usagi OS est une distribution Linux compacte, rapide et moderne. Avec la possibilité de fonctionner directement à partir d'un disque dur sur votre PC ou d'une clé/disque dur USB, Usagi OS est portable. Elle offre une interface utilisateur visuellement attrayante et une sélection de programmes de base préinstallées comme un gestionnaire de fichiers, un éditeur de texte, un navigateur Web, etc.
