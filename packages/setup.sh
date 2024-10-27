@@ -22,7 +22,7 @@ packusagi=`zenity \
 	"/apps-mozilla-firefox" "Navigateur Web" \
 	"/apps-nvidia" "Installation du pilote graphique propriétaire" \
 	"/apps-onlyoffice-desktop" "Suite Bureautique (Traitement de texte, Tableur, etc.)" \
-	"/apps-steam" "Suite Bureautique ( Traitement de texte, Tableur, etc. )" \
+	"/apps-steam" "Client officiel Steam (Jeux)" \
 	"/apps-upscayl" "Agrandir ses images en utilisant l'IA (nécessaite une bonne carte graphique)" \
 	"/apps-vlc" "Lecteur Multimédia" 2> /dev/null`
 
