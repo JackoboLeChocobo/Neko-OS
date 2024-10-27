@@ -1,5 +1,8 @@
 #!/bin/bash
 
+#Sécurité si echec 
+apt --fix-broken install
+
 install -d -m 0755 /etc/apt/keyrings
 wget -q https://packages.mozilla.org/apt/repo-signing-key.gpg -O- | tee /etc/apt/keyrings/packages.mozilla.org.asc > /dev/null
 rm /etc/apt/sources.list.d/mozilla.list

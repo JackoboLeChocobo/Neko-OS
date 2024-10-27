@@ -1,5 +1,8 @@
 #!/bin/bash
 
+#Sécurité si echec 
+apt --fix-broken install
+
 wget https://download.onlyoffice.com/install/desktop/editors/linux/onlyoffice-desktopeditors_amd64.deb -P /etc/usagi/openbox-scripts -c
 dpkg -i /etc/usagi/openbox-scripts/onlyoffice-desktopeditors_amd64.deb
 

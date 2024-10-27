@@ -1,5 +1,8 @@
 #!/bin/bash
 
+#Sécurité si echec 
+apt --fix-broken install
+
 apt install nvidia-driver firmware-misc-nonfree
 
 echo " "

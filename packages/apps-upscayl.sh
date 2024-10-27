@@ -1,5 +1,8 @@
 #!/bin/bash
 
+#Sécurité si echec 
+apt --fix-broken install
+
 wget https://github.com/upscayl/upscayl/releases/download/v2.11.5/upscayl-2.11.5-linux.AppImage -P /etc/usagi/openbox-scripts -c
 chmod +x /etc/usagi/openbox-scripts/upscayl-2.11.5-linux.AppImage
 
