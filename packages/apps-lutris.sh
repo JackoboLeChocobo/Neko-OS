@@ -12,7 +12,5 @@ echo "- Catégorie suggérée : Jeux"
 echo "- Nom suggéré : Lutris"
 echo "- Executable : /usr/games/lutris"
 echo "- Icone : /etc/usagi/openbox-icons/lutris.svg"
-
+echo " "
 read -p "Appuyer sur une touche pour quitter... " -n1 -s
-
-/etc/usagi/Usagi-OS/packages/setup.sh &

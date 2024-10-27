@@ -10,7 +10,5 @@ echo "- Catégorie suggérée : Multimédia"
 echo "- Nom suggéré : VLC Media Player"
 echo "- Executable : /usr/bin/vlc"
 echo "- Icone : /etc/usagi/openbox-icons/vlc.svg"
-
+echo " "
 read -p "Appuyer sur une touche pour quitter... " -n1 -s
-
-/etc/usagi/Usagi-OS/packages/setup.sh &

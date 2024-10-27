@@ -12,7 +12,5 @@ echo "- Catégorie suggérée : Programmation"
 echo "- Nom suggéré : Github Desktop"
 echo "- Executable : /usr/bin/github-desktop"
 echo "- Icone : /etc/usagi/openbox-icons/github.svg"
-
+echo " "
 read -p "Appuyer sur une touche pour quitter... " -n1 -s
-
-/etc/usagi/Usagi-OS/packages/setup.sh &

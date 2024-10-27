@@ -10,7 +10,5 @@ echo "- Catégorie suggérée : Système"
 echo "- Nom suggéré : Configuration NVIDIA"
 echo "- Executable : /usr/bin/nvidia-settings"
 echo "- Icone : /etc/usagi/openbox-icons/nvidia-settings.svg"
-
+echo " "
 read -p "Appuyer sur une touche pour quitter... " -n1 -s
-
-/etc/usagi/Usagi-OS/packages/setup.sh &

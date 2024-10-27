@@ -19,7 +19,5 @@ echo "- Catégorie suggérée : Internet"
 echo "- Nom suggéré : Mozilla Firefox"
 echo "- Executable : /usr/bin/firefox"
 echo "- Icone : /etc/usagi/openbox-icons/firefox.svg"
-
+echo " "
 read -p "Appuyer sur une touche pour quitter... " -n1 -s
-
-/etc/usagi/Usagi-OS/packages/setup.sh &
