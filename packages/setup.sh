@@ -13,6 +13,7 @@ packusagi=`zenity \
 	--column="Catégorie" \
 	--column="Description" \
 	"/apps-debreate" "Création de paquets Debian" \
+	"/apps-filezilla" "Client FTP" \
 	"/apps-geany" "Editeur de texte" \
 	"/apps-gimp" "Logiciel de dessin" \
 	"/apps-github-desktop" "Gestion de ses projets Github" \
