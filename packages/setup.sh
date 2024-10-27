@@ -3,7 +3,7 @@
 # Packages
 # Projet Usagi OS
 
-cp /etc/usagi/Usagi-OS/icons/* /etc/usagi/openbox-icons/
+cp /etc/usagi/Usagi-OS/packages/icons/* /etc/usagi/openbox-icons/
 
 packusagi=`zenity \
 	--width=848 --height=480 \
@@ -26,7 +26,7 @@ packusagi=`zenity \
 	"/apps-upscayl" "Agrandir ses images en utilisant l'IA (nécessaite une bonne carte graphique)" \
 	"/apps-vlc" "Lecteur Multimédia" 2> /dev/null`
 
-if echo "$packfenikkusu" | grep '/'; then
+if echo "$packusagi" | grep '/'; then
 	chmod +x /etc/usagi/Usagi-OS/packages/${packusagi}.sh
 	/usr/bin/lxterminal -e "sudo /etc/usagi/Usagi-OS/packages/${packusagi}.sh"
 fi
