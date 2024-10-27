@@ -1,6 +1,6 @@
 #!/bin/bash
 
-apt install python3-apt
+apt install python3-apt curl xterm
 wget https://cdn.akamai.steamstatic.com/client/installer/steam.deb -P /etc/usagi/openbox-scripts -c
 dpkg -i /etc/usagi/openbox-scripts/steam.deb
 
