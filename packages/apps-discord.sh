@@ -7,6 +7,8 @@ wget "https://discord.com/api/download?platform=linux&format=deb" -O /etc/usagi/
 dpkg -i /etc/usagi/openbox-scripts/discord.deb
 cp /etc/usagi/Usagi-OS/packages/scripts/usagi-discord.sh /etc/usagi/openbox-scripts/usagi-discord.sh
 chmod +x /etc/usagi/openbox-scripts/usagi-discord.sh
+cp /etc/usagi/Usagi-OS/packages/scripts/usagi-discord-update.sh /etc/usagi/openbox-scripts/usagi-discord-update.sh
+chmod +x /etc/usagi/openbox-scripts/usagi-discord-update.sh
 
 echo " "
 echo "Vous pouvez ajouter ces informations pour configurer votre menu désormais."
