@@ -5,7 +5,7 @@ apt --fix-broken install
 
 wget "https://discord.com/api/download?platform=linux&format=deb" -O /etc/usagi/openbox-scripts/discord.deb
 dpkg -i /etc/usagi/openbox-scripts/discord.deb
-cp ./scripts/usagi-discord.sh /etc/usagi/openbox-scripts/usagi-discord.sh
+cp /etc/usagi/Usagi-OS/packages/scripts/usagi-discord.sh /etc/usagi/openbox-scripts/usagi-discord.sh
 chmod +x /etc/usagi/openbox-scripts/usagi-discord.sh
 
 echo " "
