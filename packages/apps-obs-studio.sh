@@ -11,7 +11,7 @@ echo "- Menu > Configurer Le Menu"
 echo " "
 echo "- Catégorie suggérée : Multimédia"
 echo "- Nom suggéré : OBS Studio"
-echo "- Executable : /usr/bin/obs-studio"
+echo "- Executable : /usr/bin/obs"
 echo "- Icone : /etc/usagi/openbox-icons/obs-studio.svg"
 echo " "
 read -p "Appuyer sur une touche pour quitter... " -n1 -s
