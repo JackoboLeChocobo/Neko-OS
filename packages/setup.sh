@@ -18,13 +18,13 @@ packusagi=`zenity \
 	"/apps-geany" "Editeur de texte" \
 	"/apps-gimp" "Logiciel de dessin" \
 	"/apps-github-desktop" "Gestion de ses projets Github" \
-	"/apps-gpu-screen-recorder" "Capture et Streaming Vidéo de son environnement Linux" 
+	"/apps-gpu-screen-recorder" "Capture et Streaming Vidéo de son environnement Linux" \
 	"/apps-inkscape" "Logiciel de dessin vectoriel" \
 	"/apps-lutris" "Gestion de ses jeux Windows" \
 	"/apps-minecraft-mcpe-launcher" "Launcher Minecraft non officiel sous Linux (vous devez posséder la version Android)" \
 	"/apps-mozilla-firefox" "Navigateur Web" \
 	"/apps-nvidia" "Installation du pilote graphique propriétaire" \
-	"/apps-obs-studio" "Capture et Streaming Vidéo de son environnement Linux" 
+	"/apps-obs-studio" "Capture et Streaming Vidéo de son environnement Linux" \
 	"/apps-onlyoffice-desktop" "Suite Bureautique (Traitement de texte, Tableur, etc.)" \
 	"/apps-steam" "Client officiel Steam (Jeux)" \
 	"/apps-upscayl" "Agrandir ses images en utilisant l'IA (vous devez avoir une bonne carte graphique)" \
