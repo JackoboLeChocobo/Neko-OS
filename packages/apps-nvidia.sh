@@ -3,7 +3,7 @@
 #Sécurité si echec 
 apt --fix-broken install
 
-apt install nvidia-driver firmware-misc-nonfree
+apt install nvidia-driver firmware-misc-nonfree libnvidia-fbc1
 
 echo " "
 echo "Vous pouvez ajouter ces informations pour configurer votre menu désormais."
