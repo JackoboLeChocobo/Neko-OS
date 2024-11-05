@@ -18,6 +18,7 @@ packusagi=`zenity \
 	"/apps-geany" "Editeur de texte" \
 	"/apps-gimp" "Logiciel de dessin" \
 	"/apps-github-desktop" "Gestion de ses projets Github" \
+	"/apps-apps-gpu-screen-recorder" "Capture Vidéo de son environnement Linux" 
 	"/apps-inkscape" "Logiciel de dessin vectoriel" \
 	"/apps-lutris" "Gestion de ses jeux Windows" \
 	"/apps-minecraft-mcpe-launcher" "Launcher Minecraft non officiel sous Linux (vous devez posséder la version Android)" \
