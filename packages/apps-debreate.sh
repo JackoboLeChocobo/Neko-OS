@@ -3,7 +3,7 @@
 #Sécurité si echec 
 apt --fix-broken install
 
-cp ./debs/debreate_0.8-dev9_all.deb /etc/usagi/openbox-scripts/debreate_0.8-dev9_all.deb
+cp /etc/usagi/Usagi-OS/packages/debs/debreate_0.8-dev9_all.deb /etc/usagi/openbox-scripts/debreate_0.8-dev9_all.deb
 dpkg -i /etc/usagi/openbox-scripts/debreate_0.8-dev9_all.deb
 
 echo " "
