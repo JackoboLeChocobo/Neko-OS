@@ -16,6 +16,7 @@ packusagi=`zenity \
 	"/apps-discord" "Communication Audio/Vidéo par Internet" \
 	"/apps-filezilla" "Client FTP" \
 	"/apps-geany" "Editeur de texte" \
+	"/apps-gedit" "Editeur de texte" \
 	"/apps-gimp" "Logiciel de dessin" \
 	"/apps-github-desktop" "Gestion de ses projets Github" \
 	"/apps-gpu-screen-recorder" "Capture et Streaming Vidéo de son environnement Linux" \
