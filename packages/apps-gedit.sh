@@ -12,6 +12,6 @@ echo " "
 echo "- Catégorie suggérée : Programmation"
 echo "- Nom suggéré : Gedit"
 echo "- Executable : /usr/bin/gedit"
-echo "- Icone : /etc/usagi/openbox-icons/gedit.svg"
+echo "- Icone : /etc/tatsuki/openbox-icons/gedit.svg"
 echo " "
 read -p "Appuyer sur une touche pour quitter... " -n1 -s
