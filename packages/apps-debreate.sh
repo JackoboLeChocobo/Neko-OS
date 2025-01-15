@@ -3,7 +3,7 @@
 #Sécurité si echec 
 apt --fix-broken install
 
-cp /etc/neko/Usagi-OS/packages/debs/debreate_0.8-dev9_all.deb /etc/neko/openbox-scripts/debreate_0.8-dev9_all.deb
+cp /etc/neko/Neko-OS/packages/debs/debreate_0.8-dev9_all.deb /etc/neko/openbox-scripts/debreate_0.8-dev9_all.deb
 dpkg -i /etc/neko/openbox-scripts/debreate_0.8-dev9_all.deb
 
 echo " "
