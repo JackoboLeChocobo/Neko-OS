@@ -1,13 +1,13 @@
 #!/bin/bash
 
 # Packages
-# Projet Usagi OS
+# Projet Tatsuki OS
 
-cp /etc/usagi/Usagi-OS/packages/icons/* /etc/usagi/openbox-icons/
+cp /etc/tatsuki/Tatsuki-OS/packages/icons/* /etc/tatsuki/openbox-icons/
 
-packusagi=`zenity \
+packtatsuki=`zenity \
 	--width=848 --height=480 \
-	--title="Usagi OS - Installation" \
+	--title="Tatsuki OS - Installation" \
 	--text="Choisissez l'application désirée" \
 	--list \
 	--column="Catégorie" \
@@ -31,7 +31,7 @@ packusagi=`zenity \
 	"/apps-upscayl" "Agrandir ses images en utilisant l'IA (vous devez avoir une bonne carte graphique)" \
 	"/apps-vlc" "Lecteur Multimédia" 2> /dev/null`
 
-if echo "$packusagi" | grep '/'; then
-	chmod +x /etc/usagi/Usagi-OS/packages/${packusagi}.sh
-	/usr/bin/lxterminal -e "sudo /etc/usagi/Usagi-OS/packages/${packusagi}.sh"
+if echo "$packtatsuki" | grep '/'; then
+	chmod +x /etc/tatsuki/Tatsuki-OS/packages/${packtatsuki}.sh
+	/usr/bin/lxterminal -e "sudo /etc/tatsuki/Tatsuki-OS/packages/${packtatsuki}.sh"
 fi
