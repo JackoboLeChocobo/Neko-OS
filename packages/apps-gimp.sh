@@ -12,6 +12,6 @@ echo " "
 echo "- Catégorie suggérée : Graphisme"
 echo "- Nom suggéré : GIMP"
 echo "- Executable : /usr/bin/gimp"
-echo "- Icone : /etc/tatsuki/openbox-icons/gimp.svg"
+echo "- Icone : /etc/neko/openbox-icons/gimp.svg"
 echo " "
 read -p "Appuyer sur une touche pour quitter... " -n1 -s

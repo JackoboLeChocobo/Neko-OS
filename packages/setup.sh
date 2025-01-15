@@ -1,13 +1,13 @@
 #!/bin/bash
 
 # Packages
-# Projet Tatsuki OS
+# Projet Neko OS
 
-cp /etc/tatsuki/Tatsuki-OS/packages/icons/* /etc/tatsuki/openbox-icons/
+cp /etc/neko/Neko-OS/packages/icons/* /etc/neko/openbox-icons/
 
-packtatsuki=`zenity \
+packneko=`zenity \
 	--width=848 --height=480 \
-	--title="Tatsuki OS - Installation" \
+	--title="Neko OS - Installation" \
 	--text="Choisissez l'application désirée" \
 	--list \
 	--column="Catégorie" \
@@ -31,7 +31,7 @@ packtatsuki=`zenity \
 	"/apps-upscayl" "Agrandir ses images en utilisant l'IA (vous devez avoir une bonne carte graphique)" \
 	"/apps-vlc" "Lecteur Multimédia" 2> /dev/null`
 
-if echo "$packtatsuki" | grep '/'; then
-	chmod +x /etc/tatsuki/Tatsuki-OS/packages/${packtatsuki}.sh
-	/usr/bin/lxterminal -e "sudo /etc/tatsuki/Tatsuki-OS/packages/${packtatsuki}.sh"
+if echo "$packneko" | grep '/'; then
+	chmod +x /etc/neko/Tatsuki-OS/packages/${packneko}.sh
+	/usr/bin/lxterminal -e "sudo /etc/neko/Tatsuki-OS/packages/${packneko}.sh"
 fi

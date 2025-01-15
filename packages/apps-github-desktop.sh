@@ -14,6 +14,6 @@ echo " "
 echo "- Catégorie suggérée : Programmation"
 echo "- Nom suggéré : Github Desktop"
 echo "- Executable : /usr/bin/github-desktop"
-echo "- Icone : /etc/tatsuki/openbox-icons/github.svg"
+echo "- Icone : /etc/neko/openbox-icons/github.svg"
 echo " "
 read -p "Appuyer sur une touche pour quitter... " -n1 -s

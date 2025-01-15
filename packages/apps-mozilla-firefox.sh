@@ -21,6 +21,6 @@ echo " "
 echo "- Catégorie suggérée : Internet"
 echo "- Nom suggéré : Mozilla Firefox"
 echo "- Executable : /usr/bin/firefox"
-echo "- Icone : /etc/tatsuki/openbox-icons/firefox.svg"
+echo "- Icone : /etc/neko/openbox-icons/firefox.svg"
 echo " "
 read -p "Appuyer sur une touche pour quitter... " -n1 -s

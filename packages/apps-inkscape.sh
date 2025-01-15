@@ -12,6 +12,6 @@ echo " "
 echo "- Catégorie suggérée : Graphisme"
 echo "- Nom suggéré : Inkscape"
 echo "- Executable : /usr/bin/inkscape"
-echo "- Icone : /etc/tatsuki/openbox-icons/inkscape.svg"
+echo "- Icone : /etc/neko/openbox-icons/inkscape.svg"
 echo " "
 read -p "Appuyer sur une touche pour quitter... " -n1 -s

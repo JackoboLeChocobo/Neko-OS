@@ -12,6 +12,6 @@ echo " "
 echo "- Catégorie suggérée : Multimédia"
 echo "- Nom suggéré : VLC Media Player"
 echo "- Executable : /usr/bin/vlc"
-echo "- Icone : /etc/tatsuki/openbox-icons/vlc.svg"
+echo "- Icone : /etc/neko/openbox-icons/vlc.svg"
 echo " "
 read -p "Appuyer sur une touche pour quitter... " -n1 -s

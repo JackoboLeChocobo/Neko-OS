@@ -3,8 +3,8 @@
 #Sécurité si echec 
 apt --fix-broken install
 
-cp /etc/tatsuki/Usagi-OS/packages/debs/debreate_0.8-dev9_all.deb /etc/tatsuki/openbox-scripts/debreate_0.8-dev9_all.deb
-dpkg -i /etc/tatsuki/openbox-scripts/debreate_0.8-dev9_all.deb
+cp /etc/neko/Usagi-OS/packages/debs/debreate_0.8-dev9_all.deb /etc/neko/openbox-scripts/debreate_0.8-dev9_all.deb
+dpkg -i /etc/neko/openbox-scripts/debreate_0.8-dev9_all.deb
 
 echo " "
 echo "Vous pouvez ajouter ces informations pour configurer votre menu désormais."
@@ -13,6 +13,6 @@ echo " "
 echo "- Catégorie suggérée : Programmation"
 echo "- Nom suggéré : Debreate"
 echo "- Executable : /usr/bin/debreate"
-echo "- Icone : /etc/tatsuki/openbox-icons/debreate.svg"
+echo "- Icone : /etc/neko/openbox-icons/debreate.svg"
 echo " "
 read -p "Appuyer sur une touche pour quitter... " -n1 -s
